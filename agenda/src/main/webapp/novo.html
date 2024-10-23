@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agenda de Contactos</title>
+<link rel="icon" href="images/phone.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<div class="cabecalho">
+			<p class="logo">
+				<b>Criar novo contacto</b>
+			</p>
+		</div>
+	</header>
+	<div class="divforma">
+		<form name="frmContacto" action="insert" class="frm">
+			<table>
+				<tr>
+					<td><input class="entrada" type="text" name="nome"
+						placeholder="Nome"></td>
+				</tr>
+				<tr>
+					<td><input class="entrada" type="text" name="fone"
+						placeholder="Telefone"></td>
+				</tr>
+				<tr>
+					<td><input class="entrada" type="text" name="email"
+						placeholder="email"></td>
+				</tr>
+			</table>
+			<input class="botao1 p" type="button" value="Adicionar"
+				onclick="validar()">
+		</form>
+	</div>
+	<footer>
+		<div class="rodape">
+			<p>Written by Wilson Cosmopolita &copy; 2024</p>
+		</div>
+	</footer>
+	<script src="scripts/validacao.js"></script>
+</body>
+
+</html>
